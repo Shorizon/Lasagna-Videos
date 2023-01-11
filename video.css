@@ -27,12 +27,13 @@ commentPage{
 
 .userContentContainer {
     display: flex;
-    flex-direction: column;
+    justify-content: center; 
 }
 
 .comments {
     display: flex;
     flex-direction: column;
+
 }
 
 commentCard {
@@ -40,7 +41,7 @@ commentCard {
     flex-direction: column;
     margin: 15px;
     padding: 5px;
-    width: 33%;
+    width: 250px;
     border: solid black 1px;
     border-radius: 15px;
 }
@@ -81,7 +82,8 @@ commentCard > p {
 }
 
 .videoRecs {
-    background-color: grey;
-    width: 200px;
-    height: 500px;
+    background-color: pink;
+    width: 500px;
+
+
 }
