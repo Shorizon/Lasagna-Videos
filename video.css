@@ -33,8 +33,9 @@ videoDescription{
     margin-right: 100px;
     border-top: 0px;
     padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #E5E5E5;
 }
 
 .userContentContainer {
