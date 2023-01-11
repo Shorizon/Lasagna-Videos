@@ -70,7 +70,7 @@ postInfo {
 }
 
 commentDate {
-    color: lightgrey
+    color: #606060
 }
 
 h3 {
@@ -82,8 +82,34 @@ commentCard > p {
 }
 
 .videoRecs {
-    background-color: pink;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+}
 
+.videoCard {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 75px;
+}
+
+.videoImg > img{
+    height: 150px;
+    border-radius: 15px;
+}
+
+.videoTitle {
+    font-weight: bold;
+}
+
+.uploaderName{
+    color: #606060
+
+}
+
+.views {
+    color: #606060
 
 }
